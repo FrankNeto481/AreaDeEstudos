@@ -1,0 +1,183 @@
+
+        .linha {
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            width: 700px; 
+
+            height: 2px;
+            background: black;
+            opacity: 0.7;
+            background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #474661));
+        }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a img{
+    height: 60px;
+    opacity: 1;
+}
+
+.a{
+    color: #232330 ;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+.a:hover{
+    opacity: 0.9;
+}
+
+.logo{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: CompolLogo1;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, 
+    -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: white;
+    height: 9vh;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+    border-bottom: 1px solid #474661  0.5;
+}
+
+
+
+main{
+    margin-top: -10px;
+    height: 60vh;
+
+}
+
+main section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    display: flex;
+}
+
+main div{
+    font-style: italic;
+
+}
+
+.motiv{
+    font-size: 20px;
+    margin-right: 0;
+    margin-top: 80%;
+    display : inline-block;
+    vertical-align : middle;
+    line-height : 20px;  
+    letter-spacing: 1px;
+}
+
+main section img{
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.nav-list{list-style: none;
+display: flex;}
+.nav-list2{list-style: none;
+    display: flex;}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+div p{
+    font-size: 13px;
+}
+
+
+
+.area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    height: 22px;
+    width: 300px;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 25px;
+    color: #474661;
+
+}
+
+h4{
+    color: #474661;
+}
+
+.list-course{    color: black;
+    text-decoration: none;}
+    .list-course:hover{
+        opacity: 0.7;
+    }
+
+.list{
+    list-style: none;
+    margin-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+     margin-bottom: 76px;
+     width: 300px;
+}
+
+.line{
+    height: 1.5px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #474661));
+
+}
+
+
+.comportamental{
+margin-bottom: 50px;
+}
+
+.lista{
+    width: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.footer{
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, 
+    -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #474661 ;
+    height: 5vh;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.b{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
