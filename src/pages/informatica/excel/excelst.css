@@ -416,7 +416,7 @@ letter-spacing: 1px;
     }
 }
 
-@media screen and (min-width:376px) and (max-width: 425px){
+@media screen and (min-width:350px) and (max-width: 425px){
 
 
     a img{
@@ -481,7 +481,7 @@ letter-spacing: 1px;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-top: -285px;
+        margin-top: -220px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell,
         'Open Sans', 'Helvetica Neue', sans-serif;
         background: white;
